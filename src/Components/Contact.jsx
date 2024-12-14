@@ -102,7 +102,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
-      <h1>Contact Us</h1>
+      <h1>Contact App</h1>
       <form className="contact-form" onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input
@@ -111,7 +111,7 @@ const Contact = () => {
           name="name"
           onChange={handleChange}
           value={user.name}
-          placeholder="Enter your name"
+          placeholder="Enter client name"
         />
         <label htmlFor="email">Email:</label>
         <input
@@ -120,7 +120,7 @@ const Contact = () => {
           name="email"
           onChange={handleChange}
           value={user.email}
-          placeholder="Enter your email"
+          placeholder="Enter client email"
         />
         <label htmlFor="message">Message:</label>
         <textarea
